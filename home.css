@@ -1,0 +1,96 @@
+
+*{background-color:#182747; box-sizing: border-box;}
+.site{ display: flex; background-color: black;
+    
+    
+    }
+
+    .side{ border-radius: 15px; color:black;background-color: white; width: 150px; position: absolute; transform: translatex(-160px); transition: 0.5s; }
+    input{position: absolute; visibility: hidden;-webkit-appearance: none;}
+    .tog{ border-radius: 10px; position: absolute; width: 30px; height: 30px; z-index: 1; background-color:white; box-shadow: 0,0,10px rgba(0,0, 0, 0); top: 20px; left: 15px; Cursor: pointer;}
+  input:checked ~ .side{ transform: translatex(4px); }
+
+ .tog .com{position: absolute; background-color: black; width: 20px; height: 2px;}
+ .tog .w{ top: 30%;left: 20%;}.tog .x{ top: 50%;left: 20%;}.tog .c{ top: 70%;left: 20%;}
+
+.tit{ font-size: large; width: 100px; background-color:white;  padding-top: 20px; padding-left: 40px; text-align: center;}
+li, ul{ width: 80px; background-color:white;  padding-top: 20px; padding-bottom: 20px;
+} li:hover{ border-radius: 10px; background-color: #181818; color: white;width: 90px; margin-left: -20px; text-align: center;}
+
+
+
+.A{ display: flex; 
+flex-wrap: nowrap;
+background-color: black;
+width: 110%;
+margin-left: 0px;
+height: 60px;
+border-radius: 10px;
+
+}
+.cen{margin-left: 160px;}
+
+.A > div{ background-color: black;  margin-top: 10px; margin-bottom: 10px;text-align: center; padding-left: 50px; padding-right: 60px; text-align: center;
+    margin-right: 10px; }
+
+
+
+
+
+
+
+
+   a{text-decoration: none;
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+background-color:black ;
+}
+
+
+
+    a:hover{ color:black; opacity: 2;  transition: 1s; background-color: white; border-radius: 10px; padding: 10px;}
+
+    
+     iframe{margin-left: 350px; margin-top: 50px;}
+
+     img{background-color: white;border-radius: 5px;
+        
+        width: 200px; height: 28px;}
+        
+        .B{display: flex;
+            flex-wrap: nowrap;
+             width: 100ù;
+             }
+
+        .B > div{ color: white; 
+            padding: 20px;
+            }
+            .lo{ margin-left: 30px;
+                margin-right: 20px;
+                
+            }
+            
+            p{padding: 10px; width:300px ; height: 400px; }
+            .F{width: 280px; height: 250px;} 
+            
+            p:hover{background-color:#181818; border-radius: 10px; color:white; transition:1s;
+            padding: 10px; width: 300px;  height: 400px; }
+            
+            
+              
+
+            iframe{ width: 500px;height: 300px;  margin-left: 10px; margin-top: 10px; border-radius: 20px;}
+            .video{ text-align: center; }
+            
+            .sos{width:300px ; height: 200px; position: absolute; transform: translatex(-350px); margin-top: -120px; transition: 0.5s;}
+            p:hover ~ .sos{ transform: translatex(0);}
+             
+            
+
+
+
+    
+    
+
+  
